@@ -5,8 +5,8 @@ import numpy as np
 import seaborn as sns; sns.set(color_codes=True)
 
 #loading:
-countries = pd.read_csv(r'[inserd your path here]\countries.csv')
-maddison = pd.read_csv(r'[inserd your path here]\maddison.csv')
+countries = pd.read_csv(r'[insert your path here]\countries.csv')
+maddison = pd.read_csv(r'[insert your path here]\maddison.csv')
 
 ############################################################################################
 #gdp per capita in 1950:
@@ -67,7 +67,7 @@ for i in heb_names:
 
 variables = ['gdppc_maddison', 'fertility', 'telephone', 'urban', 'hc', 'survival_65']
 names = [u'תוצר ריאלי לנפש', u'פריון ילודה כולל', u'מספר מנויי טלפון למאה איש', u'שיעור עיור', u'הון אנושי', u'שרידות לגיל 56']
-namesr =  [x[::-1] for x in names] #reverese names
+namesr =  [x[::-1] for x in names] 
 
 for variable, name in zip(variables, namesr): 
 
