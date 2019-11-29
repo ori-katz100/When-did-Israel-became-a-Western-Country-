@@ -5,8 +5,8 @@ import numpy as np
 import seaborn as sns; sns.set(color_codes=True)
 
 #loading:
-countries = pd.read_csv(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\data\countries.csv')
-maddison = pd.read_csv(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\data\maddison.csv')
+countries = pd.read_csv(r'[inserd your path here]\countries.csv')
+maddison = pd.read_csv(r'[inserd your path here]\maddison.csv')
 
 ############################################################################################
 #gdp per capita in 1950:
@@ -24,8 +24,6 @@ xlabelheb = u'תוצר לנפש, 0591'
 ax.set_xlabel(xlabelheb[::-1])
 ax.set_yticks(np.arange(len(y_pos)))
 ax.set_yticklabels(mddison_1950['rheb_name'], fontsize = 'x-small')
-
-mp.savefig(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\gdp_1950.jpg', dpi=300, bbox_inches='tight')
 
 ############################################################################################
 #correlations table:
@@ -45,9 +43,6 @@ ax.set_yticklabels(namesr)
 ax.set_xticklabels(ax.get_xticklabels(), rotation=45,  horizontalalignment='right')
 titleheb = u'קורלציות בין המשתנים המסבירים'
 plt.title(titleheb[::-1], fontsize = 'x-large')
-
-mp.savefig(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\correlations.jpg', dpi=300,
-           bbox_inches='tight')
 
 ############################################################################################
 #comparing interesting countries with line graphs:
@@ -98,5 +93,4 @@ for variable, name in zip(variables, namesr):
     plt.xticks(rotation='vertical', fontsize = 'x-small')  
     leg = plt.legend(labels = heb_names2, bbox_to_anchor=(0.5, -0.18), loc='upper center', ncol=5)
     plt.title(name)
-    mp.savefig(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\countries2_' + variable + '.jpg', dpi=300, bbox_inches='tight')
 
