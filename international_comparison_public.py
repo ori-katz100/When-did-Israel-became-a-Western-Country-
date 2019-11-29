@@ -61,7 +61,7 @@ countries_reshape['year'] = pd.to_numeric(countries_reshape.index)
 heb_names = [u'ישראל', u'צרפת', u'שוודיה', u'בריטניה', u'גרמניה', u'ארה"ב', u'שוויץ', u'סינגפור', u'יפן', 
                u'אירלנד', u'איטליה', u'ספרד', u'יוון', u'הודו', u'אתיופיה', u'טורקיה', u'ברזיל']
                
-heb_names2 = [] #reverse the lables, because for some reason in trees it works and in charts not
+heb_names2 = [] #reverse the lables
 for i in heb_names: 
     heb_names2.append(i[::-1])   
 
