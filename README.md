@@ -1,7 +1,7 @@
 # When did Israel became a Western country?
 A culstering exercize, based on 6 variables representing different dimensions of development, in order to find out if Israel was similar to other developed countries already in the 1960's, or later. 
 
-This project is for my book on the economic history of  Israel. I published the results in my blog:
+This project is for my book on the economic history of  Israel. I published the results in my blog (in Hebrew):
 https://orikatz.wordpress.com/2019/11/29/israel_clustering/ 
 
 
