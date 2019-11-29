@@ -19,7 +19,7 @@ for i in periods:
 
 scaler = StandardScaler()
     
-for j in np.arange(0.5, 12, 0.5):
+for j in np.arange(0.5, 12, 0.5): #different levels of epsilon, the figures are based on epsilon = 1
     
     dbscan = DBSCAN(min_samples = 5, eps = j)
     
