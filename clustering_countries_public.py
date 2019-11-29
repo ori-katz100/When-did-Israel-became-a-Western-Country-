@@ -12,7 +12,7 @@ import seaborn as sns; sns.set(color_codes=True)
 periods = ["1960-1969", "1970-1979", "1980-1989", "1990-1999", "2000-2014"]
 countries_years={}
 for i in periods:
-    countries_years[i] = pd.read_csv(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\data\countries_'+str(i)+'.csv', index_col = 6)
+    countries_years[i] = pd.read_csv(r'[insert your path here]\countries_'+str(i)+'.csv', index_col = 6)
     
 ############################################################################################
 #scaling and clustering:
@@ -85,6 +85,5 @@ for i in periods:
     for j, name in names.iteritems():
         texts.append(plt.text(x[j] + 0.1,  y[j], name, fontsize = 3)) 
     
-    mp.savefig(r'C:\Users\orik6\Dropbox\writing\israel economy\clustering\countries_'+str(i)+'_pca1960.jpg', dpi=300, bbox_inches='tight')
   
 
