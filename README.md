@@ -17,8 +17,8 @@ source: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison
 3. Country averages for each decade - created from the original Countries database, only the countries and variables used in the analysis.
 
 
-Python scripts:
+Python notebook:
 
-1. clustering countries - includes the clustering and pca plots.
+1. Clustering countries - includes the clustering and pca plots.
 
-2. international comparison - includes all other graphs.
+2. International comparison - includes all other graphs.
