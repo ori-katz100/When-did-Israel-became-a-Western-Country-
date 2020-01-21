@@ -19,6 +19,6 @@ source: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison
 
 Python notebook:
 
-1. Clustering countries - includes the clustering and pca plots.
+1. Clustering analysis - includes the clustering and pca plots.
 
-2. International comparison - includes all other graphs.
+2. Descriptive analysis - includes all other graphs.
